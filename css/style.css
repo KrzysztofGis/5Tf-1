@@ -1,0 +1,106 @@
+/* Reset CSS */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden-xs{
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.test{
+    height: 100px;
+    fill: green;
+}
+
+.test:hover .test2{
+    fill: red;
+}
+
+/* sm */
+@media (min-width: 576px){
+    .container{
+        width: 540px;
+    }
+
+    .hidden-xs{
+        display: inline-block;
+    }
+
+    .hidden-sm{
+        display: none;
+    }
+}
+
+/* md */
+@media (min-width: 768px){
+    .container{
+        width: 720px;
+    }
+
+    .hidden-sm{
+        display: inline-block;
+    }
+
+    .hidden-md{
+        display: none;
+    }
+}
+
+/* lg */
+@media (min-width: 992px){
+    .container{
+        width: 960px;
+    }
+
+    .hidden-md{
+        display: inline-block;
+    }
+
+    .hidden-lg{
+        display: none;
+    }
+}
+
+/* xl */
+@media (min-width: 1200px){
+    .container{
+        width: 1140px;
+    }
+
+    .hidden-lg{
+        display: inline-block;
+    }
+
+    .hidden-xl{
+        display: none;
+    }
+}
+
+/* xxl */
+@media (min-width: 1400px){
+    .container{
+        width: 1320px;
+    }
+
+    .hidden-xl{
+        display: inline-block;
+    }
+
+    .hidden-xxl{
+        display: none;
+    }
+}
