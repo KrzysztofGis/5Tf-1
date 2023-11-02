@@ -21,15 +21,6 @@
     width: 100%;
 }
 
-.test{
-    height: 100px;
-    fill: green;
-}
-
-.test:hover .test2{
-    fill: red;
-}
-
 /* sm */
 @media (min-width: 576px){
     .container{
